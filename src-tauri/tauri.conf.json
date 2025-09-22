@@ -12,7 +12,9 @@
       {
         "title": "calculator",
         "width": 600,
-        "height": 800
+        "height": 800,
+        "resizable": false,
+        "fullscreen": false
       }
     ],
     "security": {

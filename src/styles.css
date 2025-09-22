@@ -1,6 +1,6 @@
 body
 {
-  background: linear-gradient(45deg, #d43c00, #1200b1);
+  background: linear-gradient(45deg, #ff7e5f, #1200b1);
   display: flex;
   overflow: hidden;
   justify-content: center;
@@ -9,7 +9,7 @@ body
 .container
 {
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px);
   width: 90%;
   height: 95%;
@@ -22,6 +22,12 @@ body
 }
 input
 {
+  outline: none;
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(10px);
+  text-shadow: 0 0 5px #000;
   width: 95%;
   font-size: 80px;
   text-align: right;
@@ -34,13 +40,13 @@ input
 button
 {
   outline: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   color: rgb(255, 255, 255);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(10px);
   border: transparent;
   border-radius: 50px;
-  box-shadow: 5px 5px 5px #000;
+  text-shadow: 0 0 10px #000;
   margin: 10px;
   font-size: 80px;
   width: 12vw;
@@ -48,8 +54,7 @@ button
 }
 button:hover
 {
-  font-size: 85px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.5);
 }
 button:active
 {
